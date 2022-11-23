@@ -14,22 +14,20 @@ projects.forEach((description, ind) => {
 });
 
 // Dark/Light mode functionality section
-
 // i don't know why the condition is working in this way
 // and not the reverse (the correct way)
-let darkMode = true;
+let darkMode = false;
+const body = document.querySelector('body');
 const visibilityButton = document.querySelector('.visibility');
 
 visibilityButton.addEventListener('click', () => {
   if (darkMode) {
     visibilityButton.innerHTML = '<i class="uil uil-sun"></i>';
-    document.querySelector('body').style.backgroundColor = '#2b2d3e';
-    document.querySelector('body').style.color = '#2b2d3e';
+    body.classList.toggle('dark-mode');
     darkMode = false;
   } else {
     visibilityButton.innerHTML = '<i class="uil uil-moon"></i>';
-    document.querySelector('body').style.backgroundColor = '#fff';
-    document.querySelector('body').style.color = '#2b2d3e';
+    body.classList.toggle('dark-mode');
     darkMode = true;
   }
 });
@@ -48,10 +46,3 @@ barsButton.addEventListener('click', () => {
     menuIsVisible = true;
   }
 });
-
-// memeory game message display logic setup
-// for (let i = 1; i <= 3; i++) {
-//   setTimeout(() => {
-//     console.log(i);
-//   }, i * 1000);
-// }

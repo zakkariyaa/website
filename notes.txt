@@ -1,0 +1,14 @@
+SECTIONS
+    - nav
+    - who am i?
+    - why coding?
+    - why FAC?
+    - what have i learned so far (projects)?
+    - feature (something fun?) - Image editor or book editor
+    - footer
+
+* Credit of Image
+latop
+<a href="https://www.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_4102879.htm#query=coder&position=0&from_view=search&track=sph">Image by fullvector</a> on Freepik
+guy sitting
+<a href="https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#query=coder&position=3&from_view=search&track=sph">Image by storyset</a> on Freepik

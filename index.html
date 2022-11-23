@@ -25,13 +25,13 @@
   <title>Personal Website</title>
 </head>
 
-<body>
+<body class="dark-mode">
   <!-- NAV -->
   <section class="nav">
     <nav class="navbar">
       <h1>Website</h1>
-      <div class="dark-mode">
-        <button class="visibility"><i class="uil uil-moon"></i></button>
+      <div>
+        <button class="visibility"><i class="uil uil-sun"></i></button>
       </div>
       <div class="hamburger-menu">
         <button class="bars-button"><i class="uil uil-bars"></i></button>
@@ -40,16 +40,16 @@
     <div class="links">
       <ul class="menu">
         <li><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#why-coding">Coding</a></li>
+        <li><a href="#why-fac">FAC</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Feedback</a></li>
       </ul>
     </div>
   </section>
 
 
   <!-- ABOUT SECTION -->
-  <section class="about">
+  <section class="about" id="about">
     <!-- <h2>Who Am I?</h2> -->
     <div class="about-content">
 
@@ -57,16 +57,24 @@
         <h2>Hello, i'm</h2>
         <h2>Zakarie<span>.</span></h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima
-          dolorem nobis
-          corrupti ipsum, laborum reprehenderit tempore possimus praesentium provident.
-          ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minima
+          I have an international degree in Medicine, but i have been working in diferrent
+          sectors since moving to the UK. I have always been a tech savy and i have
+          decided this year i would finally take a leap into a career i love.
+
         </p>
-        <button>Scroll for more</button>
+        <p>
+          Which is why i have been teaching my self coding and web development for the
+          last couple months through online and community provided resources.
+        </p>
+
+        <p>
+          When not glued to Vscode, i love Football, Movies, and walks in the park 🙂.
+        </p>
+        <a href="#why-coding" class="scroll">Scroll for more</a>
       </div>
 
       <div class="right">
-        <img src="./images/person3.png" alt="a human male smiling">
+        <img src="./images/laptop.png" alt="a human male smiling">
       </div>
 
     </div>
@@ -74,24 +82,25 @@
 
 
   <!-- WHY CODING SECTION -->
-  <section class="why-coding">
+  <section class="why-coding" id="why-coding">
     <h2>Why Coding?</h2>
     <div class="why-coding-content">
       <article>
-        <span><i class="uil uil-brain"></i></span>
-        <h3>Creativity</h3>
+        <span><i class="uil uil-heart"></i></span>
+        <h3>Passionate</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Iste nam impedit alias, provident sed minus.
+          I love coding. The logicial and creative side of it appeals to me.
+          One great and well excuted idea could change the lives of millions of people.
+
         </p>
       </article>
 
       <article>
-        <span><i class="uil uil-brackets-curly"></i></span>
-        <h3>Love it</h3>
+        <span><i class="uil uil-rocket"></i></span>
+        <h3>Future</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Iste nam impedit alias, provident sed minus.
+          Revolutionary progress are being made frequently in this sphere.
+          Tech is the future and i want to be part of that future, in a good way.
         </p>
       </article>
 
@@ -99,8 +108,8 @@
         <span><i class="uil uil-grin"></i></span>
         <h3>Career</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          Iste nam impedit alias, provident sed minus.
+          Becoming a Software Engineer is also a great career choice. Good work/life
+          balance, flexibility, and nice compensation are just few of the perks.
         </p>
       </article>
     </div>
@@ -108,24 +117,24 @@
 
 
   <!-- WHY FAC SECTION -->
-  <section class="why-fac">
+  <section class="why-fac" id="why-fac">
     <h2>Why FAC?</h2>
     <div class="why-fac-content">
 
       <div class="left">
         <p><span>📍</span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis totam
-          aliquam repellendus. Reprehenderit dolore vero maiores.
+          It is completely free and teaches the Software Engineering paths and
+          technologies i am interested in. Beyond that, It would also be a great
+          networking opportunity to connect with like minded individuals.
         </p>
         <p><span>📍</span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolore
-          vero maiores,
-          impedit nemo delectus in! Voluptatem dolorum ad laudantium. Reprehenderit dolore
-          vero maiores.
+          It is part time with classes running two days a week in the evening.
+          Very flexible scheduele to manage work, studying and other commitments
+          one may have.
         </p>
         <p><span>📍</span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus voluptas ad
-          ducimus esse nulla quibusdam. Nesciunt temporibus voluptates vel nobis?
+          It paves the way for you to get an apprenticeship role. An opportunity to study
+          full time, gain real world experience, and get qualified.
         </p>
       </div>
 
@@ -142,23 +151,22 @@
 
 
   <!-- PROJECTS SECTION -->
-  <section class="projects">
+  <section class="projects" id="projects">
     <h2>Projects</h2>
     <div class="projects-content">
 
       <article>
         <img src="./images/project1.png" alt="">
-        <h3>Tribute Page</h3>
+        <h3>Hobby Page</h3>
         <div class="description">
           <span><i class="uil uil-minus"></i></span>
           <p class="open">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem deleniti
-            vero.
+            A tribute web page dedicated to Carl Sagan.
           </p>
         </div>
         <div class="buttons">
-          <button>Live</button>
-          <button>Code</button>
+          <a href="https://zakariya.me/tribute-page/">Live</a>
+          <a href="https://github.com/zakkariyaa/tribute-page">Code</a>
         </div>
       </article>
 
@@ -168,13 +176,12 @@
         <div class="description">
           <span><i class="uil uil-plus"></i></span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem deleniti
-            vero.
+            A gallery website to showcase projects.
           </p>
         </div>
         <div class="buttons">
-          <button>Live</button>
-          <button>Code</button>
+          <a href="https://zakariya.me/project-gallery/">Live</a>
+          <a href="https://github.com/zakkariyaa/project-gallery">Code</a>
         </div>
       </article>
 
@@ -184,13 +191,12 @@
         <div class="description">
           <span><i class="uil uil-plus"></i></span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem deleniti
-            vero.
+            A website that displays user's comments on the page.
           </p>
         </div>
         <div class="buttons">
-          <button>Live</button>
-          <button>Code</button>
+          <a href="https://zakariya.me/comment-box/">Live</a>
+          <a href="https://github.com/zakkariyaa/comment-box">Code</a>
         </div>
       </article>
 
@@ -200,45 +206,57 @@
         <div class="description">
           <span><i class="uil uil-plus"></i></span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem deleniti
-            vero.
+            One place for all your fruit needs.
           </p>
         </div>
         <div class="buttons">
-          <button>Live</button>
-          <button>Code</button>
+          <a href="https://zakariya.me/fruit-shop/">Live</a>
+          <a href="https://github.com/zakkariyaa/fruit-shop">Code</a>
         </div>
       </article>
 
       <article>
         <img src="./images/project5.png" alt="">
-        <h3>Personal Website</h3>
+        <h3>Movie Data</h3>
         <div class="description">
           <span><i class="uil uil-plus"></i></span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem deleniti
-            vero.
+            Browse through movies, add your favourites, edit, delete...
           </p>
         </div>
         <div class="buttons">
-          <button>Live</button>
-          <button>Code</button>
+          <a href="http://zakariya.me/movie-data/">Live</a>
+          <a href="https://github.com/zakkariyaa/movie-data">Code</a>
         </div>
       </article>
 
       <article>
-        <img src="./images/project6.jpg" alt="">
-        <h3>Special Feature</h3>
+        <img src="./images/project6.png" alt="">
+        <h3>Personal Website</h3>
         <div class="description">
           <span><i class="uil uil-plus"></i></span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit autem deleniti
-            vero.
+            A personal webiste built as part of the FAC application.
           </p>
         </div>
         <div class="buttons">
-          <button>Live</button>
-          <button>Code</button>
+          <a href="https://zakariya.me/website/">Live</a>
+          <a href="https://github.com/zakkariyaa/website">Code</a>
+        </div>
+      </article>
+
+      <article>
+        <img src="./images/project7.png" alt="">
+        <h3>Password Manager |<span> Special</span></h3>
+        <div class="description">
+          <span><i class="uil uil-plus"></i></span>
+          <p>
+            Password manager + password generator with authentication
+          </p>
+        </div>
+        <div class="buttons">
+          <a href="https://zakariya.me/password-manager/">Live</a>
+          <a href="https://github.com/zakkariyaa/password-manager">Code</a>
         </div>
       </article>
 
@@ -247,23 +265,6 @@
 
   <!-- FOOTER -->
   <footer>
-    <!-- <div class="footer-content">
-      <p>
-        This website was built as part of Founders and Coders Skills Bootcamp
-        requirement project. Its built with HTML/CSS and Javascript
-      </p>
-
-      <form>
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <label for="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Hi, there..."></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </div> -->
-
     <p>Made with ❤️ from London</p>
     <p>All rights reserved &copy; 2022. Zakarie Yaris</p>
   </footer>
