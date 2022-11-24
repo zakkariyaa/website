@@ -46,3 +46,18 @@ barsButton.addEventListener('click', () => {
     menuIsVisible = true;
   }
 });
+
+// Open/Close image sources
+let sourcesOpen = false;
+const sourcesH3 = document.querySelector('.sources h3');
+const sourcesContent = document.querySelector('.sources-content');
+
+addEventListener('click', () => {
+  if (sourcesOpen) {
+    sourcesContent.classList.toggle('open');
+    sourcesOpen = false;
+  } else {
+    sourcesContent.classList.toggle('open');
+    sourcesOpen = true;
+  }
+});

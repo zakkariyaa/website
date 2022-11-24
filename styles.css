@@ -319,11 +319,37 @@ section {
   background: #13356c;
 }
 
+/* SOURCES SECTION */
+.sources {
+  margin-top: 10rem;
+}
+
+.sources h3 {
+  margin-bottom: 0.4rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sources-content {
+  padding: 0;
+  margin-left: 1.2rem;
+  display: none;
+}
+
+.sources-content a {
+  text-decoration: none;
+  color: #3a86ff;
+  cursor: pointer;
+}
+
+.sources .open {
+  display: block;
+}
+
 /* FOOTER SECTION */
 footer {
-  margin-top: 12rem;
+  margin-top: 4rem;
   padding: 1rem 3rem;
-  /* box-shadow: rgb(53 59 65) 0px 1px 0px 0px; */
 }
 
 footer > p {
@@ -559,5 +585,9 @@ footer > p + p {
   .projects-content article p {
     width: 100%;
     font-size: 0.7rem;
+  }
+
+  .sources h3 {
+    font-size: 1rem;
   }
 }
