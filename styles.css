@@ -319,6 +319,10 @@ section {
   background: #13356c;
 }
 
+.projects-content .special-span {
+  color: gold;
+}
+
 /* SOURCES SECTION */
 .sources {
   margin-top: 10rem;
